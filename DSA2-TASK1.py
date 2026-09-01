@@ -28,7 +28,7 @@ def merge(arr):
         #doubling n so that next time array is separated into bigger parts
         n = n * 2
     #printing array
-    print(arr)
+    print("Sorted Array: ",arr)
 
 #taking input of elements of array and calling the function
 arr = input("Enter the Array Elements: ").split()
