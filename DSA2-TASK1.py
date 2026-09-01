@@ -32,6 +32,4 @@ def merge(arr):
 
 #taking input of elements of array and calling the function
 arr = input("Enter the Array Elements: ").split()
-#converting elements to integers
-arr = [int(x) for x in arr]
 merge(arr)
